@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+body{
+	background-color: rgba(189, 195, 199,1.0);
+}
+.container{
+	margin:auto;
+	height: auto;
+	width: 80%;
+	background-color: rgba(236, 240, 241,0.5);
+}
+#logo img{
+	margin:2%;
+	width:100px ;
+	height:100px ;
+}
+.header nav{
+	background-color:#2c3e50;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	min-height: 40px;
+}
+.header nav ul{
+	list-style:none;
+	margin:0 auto;
+}
+.header nav ul li{
+	display: inline;
+	float:left;
+}
+.header nav ul li a{
+	text-decoration:none;
+	color:white;
+}
+.header nav a:link, .header nav a:visited{
+	color:rgba(230, 126, 34,1.0);
+	display: inline-block;
+	padding:10px;
+	height:20px;
+}
+.header nav a:hover, .header nav a:active,
+.header nav .active a:link, .header nav .active a:visited{
+	background-color:rgba(230, 126, 34,1.0);
+	color:#2c3e50;
+	text-shadow: none;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+
+}
+.body1{
+	padding:2%;
+}
+#qtitle{
+	margin-top:2%;
+	margin-bottom:10px;
+	font-family:'Roboto',sans-serif;
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+input[type=radio]{
+	background:red;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+	margin-top:2%;
+	border:2px solid rgba(230, 126, 34,1.0);
+	background-color: #2c3e50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:hover{
+	background-color:rgba(230, 126, 34,1.0);
+	color:#2c3e50;
+}
+#radiobar{
+	margin:2%;
+	display:inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	font-weight:300;
+}
+#headtitle{
+	font-size: 40px;
+	font-family: "Roboto" , sans-serif;
+	display:inline-block;
+	border:2px dotted black;
+	border-radius:10px;
+	padding:10px;
+}
+button{
+	display:inline-block;
+	width:100%;
+}
